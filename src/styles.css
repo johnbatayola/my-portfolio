@@ -1,1 +1,171 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: OpenSans;
+    src: url("/assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("/assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+}
+
+.container-fluid {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+* {
+    font-family: 'OpenSans';
+}
+
+::-webkit-scrollbar {
+    background-color: #e4e6e5;
+    width: 5px;
+    height: 5px;
+    opacity: .2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e4e6e5;
+    border-radius: 5px;
+    opacity: .2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #43a7ff;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #43a7ff;
+}
+
+.row {
+    margin: 0 auto !important;
+}
+
+.about_me_text,
+.awesome_journey_text,
+.experience_text {
+    font-size: 50px;
+}
+
+/* intro */
+.intro_div {
+    height: 85vh;
+    background-image: linear-gradient(to right, #e4e6e5, #cccccc);
+    padding: 5% 6% 0% 6%;
+}
+
+/* .intro_div .row{
+    margin: 0 auto;
+} */
+.hi_text {
+    color: #43a7ff;
+    font-size: 30px;
+}
+
+.name_text {
+    font-size: 65px;
+}
+
+.position_text {
+    font-size: 20px;
+}
+
+.name_text,
+.position_text,
+.awesome_journey_text,
+.about_me_text,
+.experience_text {
+    color: #071e48 !important;
+}
+
+.btn_download,
+.btn_contact {
+    padding: 1% 3% !important;
+    border-radius: 50px !important;
+    border-color: #43a7ff !important;
+    border-width: 2px !important;
+}
+
+.btn_download {
+    margin-right: 3% !important;
+    background-color: #43a7ff !important;
+    color: white !important;
+}
+
+.btn_contact {
+    color: #2a3d60 !important;
+}
+
+.intro_bottom {
+    justify-content: center;
+    display: flex;
+}
+
+.intro_row {
+    background-color: white;
+    height: 20%;
+    width: 75%;
+    /* margin: 0 auto; */
+    border-radius: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    box-shadow: 0 0 50px #ccc;
+}
+
+/* about me */
+.about_me {
+    height: 70vh;
+}
+
+.about_me_row {
+    margin-top: 10% !important;
+    /* margin: 0 auto; */
+}
+
+.info_details,
+.interest {
+    padding-top: 3%;
+}
+
+.info_details div,
+.interest div {
+    padding: 0px !important;
+}
+
+.img_div {
+    text-align: end;
+    padding-right: 5% !important;
+}
+
+.info_div {
+    text-align: start;
+}
+
+/* expertise area */
+
+.expertise_area{
+    height: 100vh;
+    background-color: #f1f4fb;
+}
+
+.expertise_area_header, .awesome_journey_header{
+    text-align: center;
+    padding-top: 5% !important;
+}
+
+.expertise_area_div, .awesome_journey_div {
+    padding: 0% 10% !important;
+    padding-top: 2% !important;
+}
+
+/* awesome journey */
+.awesome_journey{
+    height: 100vh;
+    background-color: #ffffff;
+}
